@@ -74,9 +74,20 @@
 
         <main class="py-4">
             <div class="container">
+                @include('partials.flash')
             @yield('content')
             </div>
         </main>
     </div>
+    <script src="{{asset('http://code.jquery.com/jquery-1.11.0.min.js')}}"></script>
+    <script>
+        $(function (){
+            $('#alert-session').fadeTo(5000,500).slideUp(500,function (){
+                $(this).slideUp(500);
+            });
+        });
+
+
+    </script>
 </body>
 </html>
