@@ -25,3 +25,4 @@ Route::resource('/posts','PostController');
 
 //Route::get('/live-wire-posts','PostController@index_livewire');
 Route::livewire('livewire/posts','posts');
+Route::livewire('livewire/posts/create','create-post');

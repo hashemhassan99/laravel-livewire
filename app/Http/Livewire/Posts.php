@@ -15,8 +15,28 @@ class Posts extends Component
     {
         $posts = Post::with(['user', 'category'])->orderBy('id', 'desc')->paginate(5);
 
-        return view('livewire.posts',[
+        return view('livewire.posts', [
             'posts' => $posts
         ]);
+    }
+
+    public function create_post()
+    {
+        return redirect()->to('/livewire/posts/create');
+    }
+
+    public function show_post($id)
+    {
+
+    }
+
+    public function edit_post($id)
+    {
+
+    }
+
+    public function delete_post($id)
+    {
+
     }
 }
