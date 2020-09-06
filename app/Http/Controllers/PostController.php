@@ -23,6 +23,11 @@ class PostController extends Controller
         return view('frontend.index', compact('posts'));
     }
 
+//    public function index_livewire()
+//    {
+//        return view('frontend.index_livewire');
+//    }
+
 
     public function create()
     {
