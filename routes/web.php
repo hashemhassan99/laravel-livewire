@@ -27,3 +27,4 @@ Route::resource('/posts','PostController');
 Route::livewire('livewire/posts','posts');
 Route::livewire('livewire/posts/create','create-post');
 Route::livewire('livewire/posts/{post_id}/edit','edit-post');
+Route::livewire('livewire/posts/{post_id}','show-post');

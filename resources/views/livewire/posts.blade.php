@@ -46,8 +46,7 @@
                                         @endif
                                     </td>
                                     <td>
-                                        <a wire:click="show_post({{$post->id}})">{{$post->title}}</a>
-                                    </td>
+                                        <a href="javascript:void(0);" wire:click="show_post({{ $post->id }})">{{ $post->title }}</a>                                    </td>
                                     <td>{{$post->user->name}}</td>
                                     <td>{{$post->category->name}}</td>
                                     <td>

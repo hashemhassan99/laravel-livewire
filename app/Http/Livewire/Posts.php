@@ -29,6 +29,7 @@ class Posts extends Component
 
     public function show_post($id)
     {
+        return redirect()->to('/livewire/posts/' .$id);
 
     }
 
