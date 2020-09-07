@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb2d9e4b-dda8-48f0-9441-18b41783f783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/images/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Dynamic/Create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Dynamic/Edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Dynamic/Posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/dynamic/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/dynamic/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/dynamic/posts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/ShowPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/ShowPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/adas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/asdasd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/dolorum-nobis-nulla.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/livewire-post.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/post16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/quo-deserunt-iure-ex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/second-live-wire-posy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/second-post-edit.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/tist-post.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/posts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/posts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/show-post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/show-post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/create-post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/create-post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +178,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599306622164</updated>
       <workItem from="1599306623169" duration="15492000" />
-      <workItem from="1599402504382" duration="14246000" />
+      <workItem from="1599402504382" duration="15806000" />
+      <workItem from="1599474630310" duration="1768000" />
     </task>
     <servers />
   </component>
@@ -196,17 +190,28 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599428287668">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599474796456">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599428287668" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599474796456" />
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1599420868599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599420868599" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599428834813">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599485376824">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599428834813" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599485376824" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/livewire/dynamic/posts.blade.php</url>
+          <line>62</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

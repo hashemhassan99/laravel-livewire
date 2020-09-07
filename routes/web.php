@@ -28,3 +28,6 @@ Route::livewire('livewire/posts','posts');
 Route::livewire('livewire/posts/create','create-post');
 Route::livewire('livewire/posts/{post_id}/edit','edit-post');
 Route::livewire('livewire/posts/{post_id}','show-post');
+
+//step 2
+Route::livewire('/dynamic/posts','dynamic.posts');
